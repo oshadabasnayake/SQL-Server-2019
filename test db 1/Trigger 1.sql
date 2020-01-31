@@ -1,0 +1,1 @@
+CREATE TRIGGER Students_Insert ON Students AFTER INSERT AS SELECT * FROM Students
